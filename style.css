@@ -35,15 +35,7 @@ p {
 }
 
 .icon {
-    width: 55px;
-
     position: absolute;
     left: 30px;
     top: 30px;
-}
-
-
-.icons {
-    width: 42px;
-    height: 42px;
 }
