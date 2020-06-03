@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+
+    width: 100%;
+    height: 100%;
+
+    background: #F0F0F5;
+}
+
+p {
+    margin: 0px;
+}
+
+.hello-text {
+    margin-left: 300px;
+    margin-top: 300px;
+
+    width: 40%;
+}
+
+.text-highlight {
+    color: #4B3E7E;
+}
+
+.blob {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 1380px;
+}
+
+.icon {
+    width: 55px;
+
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+
+.icons {
+    width: 42px;
+    height: 42px;
+}
