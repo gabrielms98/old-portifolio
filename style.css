@@ -41,3 +41,8 @@ p {
     left: 30px;
     top: 30px;
 }
+
+.link {
+    display: flex;
+    justify-content: center;
+}
