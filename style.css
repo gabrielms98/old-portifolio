@@ -13,7 +13,6 @@ body {
 
     background: #F0F0F5;
     
-    transition: transform 0.9s ease 0.15s, opacity 0.9s ease 0.15s;
 }
 
 p {
@@ -48,3 +47,24 @@ p {
     display: flex;
     justify-content: center;
 }
+
+div.slide-up {
+  overflow:hidden;
+}
+div.slide-up {
+  animation: 0.8s slide-up;
+  margin-top:180px;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 210px;
+    height: 110%; 
+  }
+
+  to {
+    margin-top: 180px;
+    height: 100%;
+  }
+}
+
